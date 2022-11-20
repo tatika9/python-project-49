@@ -12,8 +12,8 @@ def dialogue(rules, question_answer):
         if answer == correct_answer:
             print('Correct!')
         else:
-            print((f"'{answer}' is wrong answer ;(. "
-                  "Correct answer was '{correct_answer}'"))
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}')
