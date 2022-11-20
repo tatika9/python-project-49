@@ -6,3 +6,5 @@
 [asciinema brain-calc](https://asciinema.org/a/SGBbrWNX8mg5PGsWuqjtY1WE5)
 
 [asciinema brain-gcd](https://asciinema.org/a/zTCaBTsSJEZtIlFJ9yXMUe6aj)
+
+[asciinema brain-progression](https://asciinema.org/a/u05pqx984dLjt8VhsckCmuUTD)
