@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.6.0"
-description = ""
+description = "Text games on the command line"
 authors = ["Rinat Shakirov <tatika0872@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/tatika9/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
