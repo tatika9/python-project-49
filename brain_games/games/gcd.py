@@ -11,15 +11,15 @@ def gcd(number1, number2):
 
 
 def generation():
-    rules = 'Find the greatest common divisor of given numbers.'
-    number_min = 1
-    number_max = 100
-    count_round = 3
+    RULES = 'Find the greatest common divisor of given numbers.'
+    NUMBER_MIN = 1
+    NUMBER_MAX = 100
+    ROUND_COUNT = 3
     question_answer = []
-    for _ in range(count_round):
-        number1 = random.randint(number_min, number_max)
-        number2 = random.randint(number_min, number_max)
+    for _ in range(ROUND_COUNT):
+        number1 = random.randint(NUMBER_MIN, NUMBER_MAX)
+        number2 = random.randint(NUMBER_MIN, NUMBER_MAX)
         question = f'{number1} {number2}'
         correct_answer = str(gcd(number1, number2))
         question_answer.append([question, correct_answer])
-    return rules, question_answer
+    return RULES, question_answer

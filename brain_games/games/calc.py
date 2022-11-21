@@ -2,17 +2,17 @@ import random
 
 
 def generation():
-    rules = 'What is the result of the expression?'
-    number_min = 1
-    number_max = 100
-    count_round = 3
+    RULES = 'What is the result of the expression?'
+    NUMBER_MIN = 1
+    NUMBER_MAX = 100
+    ROUND_COUNT = 3
+    OPERATOR_ALL = ['+', '-', '*']
     question_answer = []
-    operator_all = ['+', '-', '*']
-    for _ in range(count_round):
-        number1 = random.randint(number_min, number_max)
-        number2 = random.randint(number_min, number_max)
-        operator = random.choice(operator_all)
+    for _ in range(ROUND_COUNT):
+        number1 = random.randint(NUMBER_MIN, NUMBER_MAX)
+        number2 = random.randint(NUMBER_MIN, NUMBER_MAX)
+        operator = random.choice(OPERATOR_ALL)
         question = f'{number1} {operator} {number2}'
         correct_answer = str(eval(question))
         question_answer.append([question, correct_answer])
-    return rules, question_answer
+    return RULES, question_answer
