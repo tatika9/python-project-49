@@ -2,7 +2,7 @@ import random
 
 
 def generation():
-    rules = 'Answer "yes" if the number is even, otherwise answer "no"'
+    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
     number_min = 1
     number_max = 100
     count_round = 3
