@@ -1,12 +1,47 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/tatika9/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/tatika9/python-project-49/actions)[![Maintainability](https://api.codeclimate.com/v1/badges/9423a60658e06674c797/maintainability)](https://codeclimate.com/github/tatika9/python-project-49/maintainability)
 
-[asciinema brain-even](https://asciinema.org/a/cGjRAAnppCkzuvQabo3kmrS3r)
+# Игры разума
+«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задаёт вопросы, на которые нужно дать правильные ответы. После трёх правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти её заново.
 
-[asciinema brain-calc](https://asciinema.org/a/SGBbrWNX8mg5PGsWuqjtY1WE5)
+Игры:
+* Проверка на чётность
+* Калькулятор
+* Наибольший общий делитель
+* Арифметическая прогрессия
+* Простое ли число?
 
-[asciinema brain-gcd](https://asciinema.org/a/zTCaBTsSJEZtIlFJ9yXMUe6aj)
+## Игра «Проверка на чётность»
+Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить **yes**, если число чётное, или **no** — если нечётное
+### Запуск игры
+`$ brain-even`
+### Пример игры
+[![](https://i.imgur.com/ZMkRXyl.png)](https://asciinema.org/a/cGjRAAnppCkzuvQabo3kmrS3r)
 
-[asciinema brain-progression](https://asciinema.org/a/u05pqx984dLjt8VhsckCmuUTD)
+## Игра «Калькулятор»
+Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+### Запуск игры
+`$ brain-calc`
+### Пример игры
+[![](https://i.imgur.com/GM5xwYn.png)](https://asciinema.org/a/SGBbrWNX8mg5PGsWuqjtY1WE5)
 
-[asciinema brain-prime](https://asciinema.org/a/G2T24uMAa4UCSZKIjQkOoQttc)
+## Игра «Наибольший общий делитель»
+Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+### Запуск игры
+`$ brain-gcd`
+### Пример игры
+[![](https://i.imgur.com/wuAAGbh.png)](https://asciinema.org/a/zTCaBTsSJEZtIlFJ9yXMUe6aj)
+
+## Игра «Арифметическая прогрессия»
+Суть игры в следующем: пользователю показывается ряд чисел, образующих арифметическую прогрессию. Пользователь должен вычислить и ввести пропущенное число.
+### Запуск игры
+`$ brain-progression`
+### Пример игры
+[![](https://i.imgur.com/3xbztmQ.png)](https://asciinema.org/a/u05pqx984dLjt8VhsckCmuUTD)
+
+## Игра «Простое ли число?»
+Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить **yes**, если число простое, или **no** — если это не так.
+### Запуск игры
+`$ brain-prime`
+### Пример игры
+[![](https://i.imgur.com/vTmc1QG.png)](https://asciinema.org/a/G2T24uMAa4UCSZKIjQkOoQttc)
