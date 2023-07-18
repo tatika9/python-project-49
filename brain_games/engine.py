@@ -1,12 +1,18 @@
 import prompt
 
 
-def dialogue(rules, question_answer):
+def start_game(game):
+    NUMBER_MIN = 1
+    NUMBER_MAX = 100
+    ROUND_COUNT = 3
+
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(rules)
-    for question, correct_answer in question_answer:
+    print(game.RULES)
+
+    for _ in range(ROUND_COUNT):
+        question, correct_answer = game.generation(NUMBER_MIN, NUMBER_MAX)
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
